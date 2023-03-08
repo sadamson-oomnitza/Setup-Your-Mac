@@ -539,6 +539,96 @@ function policyJSONConfiguration() {
                         ]
                     },
                     {
+                        "listitem": "Install Chrome",
+                        "icon": "c8f42f4c1ad3906610633f4e24701b65eb1885a724936dd0064316264b6a496a",
+                        "progresstext": "Installing Google Chrome …",
+                        "trigger_list": [
+                            {
+                                "trigger": "installChrome",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "reconAtReboot",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Install Slack",
+                        "icon": "cab6fa2d40147affde141099b743729b1c9b0f330047fd25bccff329006f5ff6",
+                        "progresstext": "Installing Slack …",
+                        "trigger_list": [
+                            {
+                                "trigger": "installSlack",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "reconAtReboot",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Install Zoom",
+                        "icon": "08550cdb2d5acdff3f925f3da7c02096e7b92abe6b4cd48bec8d3e795398474b",
+                        "progresstext": "Installing Zoom …",
+                        "trigger_list": [
+                            {
+                                "trigger": "installZoom",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "reconAtReboot",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Install Okta Verify",
+                        "icon": "eec6872b106f8a959ba29514fd993fc67de4aa910ed750956b9a3cf1d5e0b22c",
+                        "progresstext": "Installing Okta Verify …",
+                        "trigger_list": [
+                            {
+                                "trigger": "installOkta",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "reconAtReboot",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Install Jamf Protect",
+                        "icon": "518691acc6e95c7bbf187ab0c2b6dc3c531aace24f5abe42d369b4af0432dbe4",
+                        "progresstext": "Installing Jamf Protect …",
+                        "trigger_list": [
+                            {
+                                "trigger": "jamf-protect",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "reconAtReboot",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Set Computer Name",
+                        "icon": "00d7c19b984222630f20b6821425c3548e4b5094ecd846b03bde0994aaf08826",
+                        "progresstext": "Setting Computer Name …",
+                        "trigger_list": [
+                            {
+                                "trigger": "setCompName",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "reconAtReboot",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
                         "listitem": "Computer Inventory",
                         "icon": "90958d0e1f8f8287a86a1198d21cded84eeea44886df2b3357d909fe2e6f1296",
                         "progresstext": "A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.",
